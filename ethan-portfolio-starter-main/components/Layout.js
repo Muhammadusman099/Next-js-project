@@ -17,7 +17,7 @@ import TopLeftImg from '../components/TopLeftImg'
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className='page bg-site text-white'>
       <TopLeftImg />
       <Nav />
       <Header />
