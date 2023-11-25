@@ -14,10 +14,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <AnimatePresence mode='wait'>
-        <div>
-    
-        </div>
-        <Component {...pageProps} />
+        <motion.div key={router.route} className='h-full'>
+          <Transition />
+          <Component {...pageProps} />
+        </motion.div>
       </AnimatePresence>
     </Layout>
   );
