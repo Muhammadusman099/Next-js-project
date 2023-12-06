@@ -17,7 +17,7 @@ const Home = () => {
     <div className="bg-primary/60 h-full ">
       {/* text*/}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black-30 to-black/10">
-        <div className=" flex flex-col justify-center  xl:pt-20 xl:text-left h-full container mx-auto">
+        <div className=" flex flex-col justify-center  xl:pt-20 xl:text-left h-full container mx-auto lg:mt-10">
           {/* title */}
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -26,8 +26,8 @@ const Home = () => {
             exit="hidden"
             className="h1 sm-mt-20"
           >
-            Transforming Ideas <br /> Into{""}
-            <span className="text-accent">Digital Reality</span>
+            Front-end developer <br /> & {""}
+            <span className="text-accent">Wordpress developer</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p
@@ -35,11 +35,9 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl max-auto xl:mx-0 mb-10"
+            className="max-w-sm xl:max-w-xl max-auto xl:mx-0"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            maxime aut corrupti possimus reprehenderit numquam molestias
-            corporis esse facere quo!
+          Explore my portfolio showcasing a diverse range of web development projects. Witness my passion for crafting intuitive and visually compelling digital experiences.
           </motion.p>
           {/* BTN */}
           <div className=" xl:hidden">
@@ -50,7 +48,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex"
+            className="hidden xl:flex mt-10"
           >
             <ProjectsBtn />
           </motion.div>
@@ -71,7 +69,7 @@ const Home = () => {
           transition={{duration:1, ease: 'easeInOut'}}
           className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]  "
         >
-          <Avatar />
+          {/* <Avatar /> */}
         </motion.div>
       </div>
     </div>
