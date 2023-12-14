@@ -6,8 +6,6 @@ import {
   RxReader,
   RxRocket,
 } from "react-icons/rx";
-
-
 // data
 const serviceData = [
   {
@@ -36,6 +34,24 @@ const serviceData = [
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
+
+// import swiper react component 
+import { Swiper, SwipeSlide } from 'swiper/react';
+
+// import swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
+// icons
+import {
+  RxCrop,
+  RxDesktop,
+  RxPencil2,
+  RxReader,
+  RxRocket,
+  RxArrowTopRight,
+} from 'react-icons/rx'
 
 const ServiceSlider = () => {
   return <div>Service Slider</div>;
