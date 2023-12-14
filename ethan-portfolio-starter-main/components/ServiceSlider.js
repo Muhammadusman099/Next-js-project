@@ -35,23 +35,9 @@ const serviceData = [
   },
 ];
 
-// import swiper react component 
-import { Swiper, SwipeSlide } from 'swiper/react';
+// import swiper react component
 
-// import swiper styles
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
 
-// icons
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight,
-} from 'react-icons/rx'
 
 const ServiceSlider = () => {
   return <div>Service Slider</div>;
