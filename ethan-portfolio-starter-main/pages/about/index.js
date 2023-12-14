@@ -133,7 +133,6 @@ const About = () => {
         <div>
           <div>
             {/* experiece */}
-            <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 ">experiece</div>
           </div>
         </div>
         </div>
