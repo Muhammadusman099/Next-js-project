@@ -5,6 +5,7 @@ import {
   RxDesktop,
   RxReader,
   RxRocket,
+  RxArrowTopRight,
 } from "react-icons/rx";
 // data
 const serviceData = [
@@ -36,11 +37,22 @@ const serviceData = [
 ];
 
 // import swiper react component
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// import swiper styles
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'swiper/css/pagination'
 
+// import requried modules
+import { FreeMode, Pagination } from 'swiper'
 
 const ServiceSlider = () => {
-  return <div>Service Slider</div>;
+  return <Swiper breakpoints={{
+    320:{
+      
+    }
+  }}></Swiper>;
 };
 
 export default ServiceSlider;
